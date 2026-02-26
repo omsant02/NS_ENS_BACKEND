@@ -148,3 +148,9 @@ if not DEBUG:
         'https://ns-ens-kohl.vercel.app',
     ]
     CORS_ALLOW_ALL_ORIGINS = False
+
+    # Vercel-specific settings
+import os
+if os.environ.get('VERCEL'):
+    ALLOWED_HOSTS = ['*']
+    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
