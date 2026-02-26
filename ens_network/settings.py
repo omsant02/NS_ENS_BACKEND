@@ -128,8 +128,11 @@ STATIC_URL = 'static/'
 
 
 # CORS Settings
-CORS_ALLOW_ALL_ORIGINS = True  # For development only
-# CORS_ALLOWED_ORIGINS = ['https://ns-ens-kohl.vercel.app']  # Use this in production
+# Replace CORS_ALLOW_ALL_ORIGINS = True with:
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',
+    'https://ns-ens-kohl.vercel.app',
+]
 
 # REST Framework
 REST_FRAMEWORK = {
