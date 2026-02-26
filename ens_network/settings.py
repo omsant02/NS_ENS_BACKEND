@@ -140,3 +140,11 @@ REST_FRAMEWORK = {
         'rest_framework.parsers.JSONParser',
     ],
 }
+
+# Production settings
+if not DEBUG:
+    ALLOWED_HOSTS = ['*']  # Will restrict after deployment
+    CORS_ALLOWED_ORIGINS = [
+        'https://ns-ens-kohl.vercel.app',
+    ]
+    CORS_ALLOW_ALL_ORIGINS = False
