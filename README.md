@@ -2,7 +2,12 @@
 
 Django REST API backend for the ENS Social Network application. Manages friendship connections between ENS identities with persistent PostgreSQL storage.
 
-<img width="1499" height="481" alt="image" src="https://github.com/user-attachments/assets/772c9dd4-38c6-4fdc-b9e8-51feec5e4fc8" />
+<img width="1507" height="849" alt="image" src="https://github.com/user-attachments/assets/f8fdf382-a4b2-4c8d-9bdb-bcdaec675c16" />
+
+
+
+<img width="1501" height="831" alt="image" src="https://github.com/user-attachments/assets/2b1684a4-6a98-4d21-90c1-00be8c610f41" />
+
 
 
 ## 🌟 Features
